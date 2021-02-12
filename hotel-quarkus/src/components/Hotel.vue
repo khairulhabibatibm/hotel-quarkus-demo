@@ -84,7 +84,7 @@
         created() {
             let id = this.$route.params.id;
 
-            axios.get(`http://localhost:8080/hotels/${id}`)
+            axios.get(`http://161.202.7.251:8080/hotels/${id}`)
                 .then(response => {
                     this.hotel = response.data;
                 })
@@ -105,7 +105,7 @@
                     // This has to map BookingRequest dto
                     let bookingRequest = {"hotelId":hotelId,"checkinDate":this.checkin,"checkoutDate":this.checkout};
                     axios.post(
-                        'http://localhost:8080/bookingService/hotel/' + hotelId, bookingRequest
+                        'http://161.202.7.251:8080/bookingService/hotel/' + hotelId, bookingRequest
                     ).then(function (response) {
                         currentObj.formErrors = [];
                         currentObj.formSuccess.push(response.data.result);

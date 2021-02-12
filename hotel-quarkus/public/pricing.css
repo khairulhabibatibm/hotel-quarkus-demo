@@ -44,10 +44,10 @@ h2, h3 {
  */
 
 .banner {
-    background: transparent url('http://localhost:8080/assets/hotel_background.jpg') 0 0 no-repeat fixed;
+    background: transparent url('http://161.202.7.251:8080/assets/hotel_background.jpg') 0 0 no-repeat fixed;
     text-align: center;
     background-size: cover;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://localhost:8080/assets/hotel_background.jpg', sizingMethod='scale');
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://161.202.7.251:8080/assets/hotel_background.jpg', sizingMethod='scale');
 
     height: 200px;
     width: 100%;

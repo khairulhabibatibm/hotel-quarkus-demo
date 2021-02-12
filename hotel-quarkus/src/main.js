@@ -6,7 +6,7 @@ import HotelList from './components/HotelList.vue';
 import Hotel from './components/Hotel.vue';
 
 window.axios = axios;
-window.axios.defaults.baseURL = (process.env.NODE_ENV !== 'production') ? 'http://localhost:8081' : 'http://localhost:8080';
+window.axios.defaults.baseURL = (process.env.NODE_ENV !== 'production') ? 'http://161.202.7.251:8081' : 'http://161.202.7.251:8080';
 
 Vue.use(VueRouter);
 

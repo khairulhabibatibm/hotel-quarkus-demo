@@ -41,7 +41,7 @@
         components: {
         },
         created: function () {
-            axios.get('http://localhost:8080/hotels')
+            axios.get('http://161.202.7.251:8080/hotels')
                 .then(response => this.theHotels = response.data)
         }
     }
