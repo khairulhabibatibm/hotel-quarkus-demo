@@ -17,9 +17,6 @@ import java.util.UUID;
  */
 @Entity
 public class Booking extends PanacheEntity {
-    @Id
-    public Long id;
-
     @NotNull
     @GeneratedValue(strategy = GenerationType.AUTO)
     public UUID bookingRef;
